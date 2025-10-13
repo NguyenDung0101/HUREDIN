@@ -18,7 +18,7 @@ const projects: ProjectItem[] = [
     year: "2024",
     organization: "Viện Giáo dục Lãnh đạo Điều hành",
     imageUrl:
-      "https://images.unsplash.com/photo-1534759846116-57968a6bfc3a?q=80&w=1600&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1485217988980-11786ced9454?q=80&w=1600&auto=format&fit=crop",
     href: "/du-an/he-sinh-thai-du-lieu-hoc-thuat",
   },
   {
@@ -38,7 +38,7 @@ const projects: ProjectItem[] = [
     year: "2022",
     organization: "Học viện Chính sách & Phát triển",
     imageUrl:
-      "https://images.unsplash.com/photo-1523246206026-7a3a9a74a3a2?q=80&w=1600&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1581092921461-eab62e97a780?q=80&w=1600&auto=format&fit=crop",
     href: "/du-an/lanh-dao-ben-vung",
   },
   {
@@ -58,7 +58,7 @@ const projects: ProjectItem[] = [
     year: "2021",
     organization: "Mạng lưới học thuật ASEAN",
     imageUrl:
-      "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=1600&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1556761175-b413da4baf72?q=80&w=1600&auto=format&fit=crop",
     href: "/du-an/nang-luc-nghien-cuu",
   },
   {
@@ -78,18 +78,30 @@ export default function ProjectsSection() {
     <section id="du-an" className="py-16 md:py-24 bg-background">
       <div className="container mx-auto px-4">
         <div className="text-center max-w-3xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold tracking-tight" style={{ color: "#00596C" }}>
+          <h2
+            className="text-3xl md:text-4xl font-bold tracking-tight"
+            style={{ color: "#00596C" }}
+          >
             DỰ ÁN TIÊU BIỂU
           </h2>
-          <div className="mx-auto mt-3 h-1 w-24 rounded-full" style={{ backgroundColor: "#E7793F" }} />
+          <div
+            className="mx-auto mt-3 h-1 w-24 rounded-full"
+            style={{ backgroundColor: "#E7793F" }}
+          />
           <p className="mt-4 text-foreground/70 text-base md:text-lg">
-            Các dự án tiêu biểu thể hiện định hướng học thuật, ứng dụng và tác động xã hội.
+            Các dự án tiêu biểu thể hiện định hướng học thuật, ứng dụng và tác
+            động xã hội.
           </p>
         </div>
 
         <div className="mt-10 grid gap-6 sm:gap-8 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
           {projects.map((p) => (
-            <a key={p.href} href={p.href} className="group block" aria-label={p.title}>
+            <a
+              key={p.href}
+              href={p.href}
+              className="group block"
+              aria-label={p.title}
+            >
               <Card className="overflow-hidden rounded-2xl border border-border/50 bg-card transition-all duration-300 shadow-sm group-hover:shadow-xl group-hover:-translate-y-1 group-hover:scale-[1.01]">
                 <div className="relative h-48 w-full overflow-hidden">
                   <img
@@ -101,11 +113,19 @@ export default function ProjectsSection() {
                 </div>
                 <div className="p-6 space-y-3">
                   <div className="flex items-center justify-between text-sm text-foreground/70">
-                    <span className="font-medium" style={{ color: "#00596C" }}>{p.organization}</span>
-                    <span className="tabular-nums" style={{ color: "#00596C" }}>{p.year}</span>
+                    <span className="font-medium" style={{ color: "#00596C" }}>
+                      {p.organization}
+                    </span>
+                    <span className="tabular-nums" style={{ color: "#00596C" }}>
+                      {p.year}
+                    </span>
                   </div>
-                  <h3 className="text-xl font-semibold leading-snug">{p.title}</h3>
-                  <p className="text-foreground/70 text-sm leading-relaxed">{p.description}</p>
+                  <h3 className="text-xl font-semibold leading-snug">
+                    {p.title}
+                  </h3>
+                  <p className="text-foreground/70 text-sm leading-relaxed">
+                    {p.description}
+                  </p>
                   <div className="pt-2">
                     <Button
                       className="rounded-md text-white hover:opacity-90"

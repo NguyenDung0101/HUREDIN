@@ -16,10 +16,10 @@ const Index = () => {
         <HeroSection />
         <AboutSection />
         <CourseListSection />
-        <AboutInstituteSection />
+        {/* <SolutionsSection />
+        <ProductsSection /> */}
         <ProjectsSection />
-        <SolutionsSection />
-        <ProductsSection />
+        <AboutInstituteSection />
         <ContactSection />
       </main>
       <footer className="bg-foreground text-background py-6 text-center">
