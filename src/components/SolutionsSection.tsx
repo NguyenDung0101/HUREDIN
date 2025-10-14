@@ -1,29 +1,29 @@
-import { Award, Target, Users, TrendingUp } from "lucide-react";
+import { Users, MapPin, Leaf, TrendingUp } from "lucide-react";
 
-const solutions = [
-  {
-    icon: Award,
-    title: "Đào tạo Chuyên sâu",
-    description:
-      "Chương trình được thiết kế bởi các chuyên gia hàng đầu, kết hợp lý thuyết và thực hành",
-  },
-  {
-    icon: Target,
-    title: "Tùy chỉnh Linh hoạt",
-    description:
-      "Điều chỉnh nội dung phù hợp với mục tiêu và ngành nghề của tổ chức bạn",
-  },
+const impressiveNumbers = [
   {
     icon: Users,
-    title: "Mạng lưới Kết nối",
-    description:
-      "Tham gia cộng đồng lãnh đạo với hơn 10,000+ thành viên toàn cầu",
+    title: "500+",
+    subtitle: "Hộ gia đình tham gia",
+    description: "Được hỗ trợ phát triển sản phẩm nông nghiệp bền vững",
+  },
+  {
+    icon: MapPin,
+    title: "15",
+    subtitle: "Tỉnh/Thành phố",
+    description: "Triển khai dự án trên khắp cả nước",
+  },
+  {
+    icon: Leaf,
+    title: "200+",
+    subtitle: "Loại sản phẩm",
+    description: "Nông sản được phát triển và quảng bá",
   },
   {
     icon: TrendingUp,
-    title: "Phát triển Bền vững",
-    description:
-      "Theo dõi tiến độ và hỗ trợ liên tục sau khi hoàn thành chương trình",
+    title: "85%",
+    subtitle: "Tăng thu nhập",
+    description: "Trung bình của các hộ gia đình tham gia",
   },
 ];
 
@@ -33,16 +33,16 @@ const SolutionsSection = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16 animate-fade-in">
           <h2 className="text-4xl font-bold text-foreground mb-4">
-            Giải Pháp Đào Tạo Toàn Diện
+            Những con số ấn tượng
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Chúng tôi cung cấp giải pháp đào tạo lãnh đạo toàn diện, 
-            được thiết kế riêng cho nhu cầu của tổ chức bạn
+            Dự án nông nghiệp 2025 đã tạo ra những tác động tích cực mạnh mẽ đến
+            cộng đồng nông thôn
           </p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-          {solutions.map((solution, index) => (
+          {impressiveNumbers.map((item, index) => (
             <div
               key={index}
               className="bg-card p-8 rounded-xl border border-border hover:shadow-xl transition-all duration-300 group animate-fade-in"
@@ -50,14 +50,17 @@ const SolutionsSection = () => {
             >
               <div className="mb-4">
                 <div className="w-14 h-14 bg-primary/10 rounded-lg flex items-center justify-center group-hover:bg-primary transition-colors duration-300">
-                  <solution.icon className="h-7 w-7 text-primary group-hover:text-primary-foreground transition-colors duration-300" />
+                  <item.icon className="h-7 w-7 text-primary group-hover:text-primary-foreground transition-colors duration-300" />
                 </div>
               </div>
+              <div className="text-3xl font-bold text-foreground mb-2">
+                {item.title}
+              </div>
               <h3 className="text-xl font-semibold text-foreground mb-3">
-                {solution.title}
+                {item.subtitle}
               </h3>
               <p className="text-muted-foreground leading-relaxed">
-                {solution.description}
+                {item.description}
               </p>
             </div>
           ))}

@@ -33,7 +33,8 @@ const CourseListSection = () => {
             Khóa Học Sắp Diễn Ra
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Chương trình đào tạo cao cấp dành cho lãnh đạo và chuyên gia hàng đầu
+            Chương trình đào tạo cao cấp dành cho lãnh đạo và chuyên gia hàng
+            đầu
           </p>
         </div>
 

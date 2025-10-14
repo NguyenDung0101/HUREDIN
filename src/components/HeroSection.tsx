@@ -67,7 +67,7 @@ const HeroSection = () => {
       <div className="container mx-auto px-4">
         {/* Logos Section */}
         <div className="flex items-center justify-center gap-8 mb-16 pt-8">
-          <div className="bg-background rounded-2xl p-6 shadow-lg hover:scale-105 transition-transform duration-300">
+          {/* <div className="bg-background rounded-2xl p-6 shadow-lg hover:scale-105 transition-transform duration-300">
             <img
               src={logo1}
               alt="Partner Logo 1"
@@ -80,7 +80,7 @@ const HeroSection = () => {
               alt="Partner Logo 2"
               className="h-20 w-20 object-contain"
             />
-          </div>
+          </div> */}
         </div>
 
         {/* Carousel Section */}

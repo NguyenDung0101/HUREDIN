@@ -7,6 +7,7 @@ import ContactSection from "@/components/ContactSection";
 import AboutSection from "@/components/AboutSection";
 import ProjectsSection from "@/components/ProjectsSection";
 import AboutInstituteSection from "@/components/AboutInstituteSection";
+import PartnersSection from "@/components/PartnersSection";
 
 const Index = () => {
   return (
@@ -15,11 +16,12 @@ const Index = () => {
       <main>
         <HeroSection />
         <AboutSection />
+        <SolutionsSection />
         <CourseListSection />
-        {/* <SolutionsSection />
-        <ProductsSection /> */}
+        {/* <ProductsSection /> */}
         <ProjectsSection />
         <AboutInstituteSection />
+        <PartnersSection />
         <ContactSection />
       </main>
       <footer className="bg-foreground text-background py-6 text-center">
