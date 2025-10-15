@@ -33,7 +33,7 @@ const Navbar = () => {
           <h1 className="text-2xl font-bold text-primary">
             THÔNG TIN DỰ ÁN NÔNG NGHIỆP 2025
           </h1>
-          <p className="text-lg text-orange-800 font-medium">
+          <p className="sm:block hidden text-lg text-orange-800 font-medium ">
             XÂY DỰNG BÁO CÁO VỀ THỰC TRẠNG VÀ GIẢI PHÁP NÂNG CAO NHẬN THỨC VỀ
             PHÁT TRIỂN SẢN PHẨM NÔNG NGHIỆP, SẢN PHẨM NGÀNH NGHỀ NÔNG THÔN GẮN
             VỚI PHÁT TRIỂN DU LỊCH CỘNG ĐỒNG
@@ -44,7 +44,7 @@ const Navbar = () => {
 
       <div className="container mx-auto px-6">
         <div className="flex items-center justify-center h-16">
-          <div className="hidden md:flex items-center gap-8">
+          <div className=" flex items-center gap-8">
             {[
               { label: "Đề xuất", id: "hero" },
               { label: "Giải pháp", id: "solutions" },

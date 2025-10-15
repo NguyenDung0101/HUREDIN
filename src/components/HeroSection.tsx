@@ -62,7 +62,7 @@ const HeroSection = () => {
   return (
     <section
       id="hero"
-      className="relative min-h-screen bg-primary pt-20 pb-12 overflow-hidden"
+      className="relative  bg-primary pt-20 pb-12 overflow-hidden"
     >
       <div className="container mx-auto px-4">
         {/* Logos Section */}
