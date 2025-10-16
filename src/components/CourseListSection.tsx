@@ -30,11 +30,10 @@ const CourseListSection = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16 animate-fade-in">
           <h2 className="text-4xl font-bold text-foreground mb-4">
-            Khóa Học Sắp Diễn Ra
+            Khảo Sát Sắp Diễn Ra
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Chương trình đào tạo cao cấp dành cho lãnh đạo và chuyên gia hàng
-            đầu
+            Dự án khảo sát dành cho các hộ gia đình được diễn ra tại TP.HCM
           </p>
         </div>
 
@@ -73,11 +72,11 @@ const CourseListSection = () => {
                   className="border-primary text-primary hover:bg-primary hover:text-primary-foreground"
                 >
                   <Download className="h-4 w-4 mr-2" />
-                  Tải Brochure
+                  xem lịch trình
                 </Button>
                 <Button className="bg-accent hover:bg-accent-hover text-accent-foreground">
                   <UserPlus className="h-4 w-4 mr-2" />
-                  Đăng ký
+                  Liên hệ
                 </Button>
               </div>
             </div>

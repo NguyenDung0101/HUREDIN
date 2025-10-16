@@ -12,9 +12,9 @@ interface ProjectItem {
 
 const projects: ProjectItem[] = [
   {
-    title: "Hệ sinh thái dữ liệu học thuật",
+    title: "Khảo sát phát triển sản phẩm nông nghiệp gắn với du lịch cộng đồng",
     description:
-      "Xây dựng nền tảng dữ liệu nghiên cứu tích hợp, hỗ trợ phân tích xu hướng khoa học và hợp tác liên viện.",
+      "Thu thập dữ liệu và đánh giá nhận thức của người dân về mô hình “Nông nghiệp, du lịch”, hướng đến nâng cao thu nhập và phát triển kinh tế bền vững nông thôn.",
     year: "2024",
     organization: "Viện Giáo dục Lãnh đạo Điều hành",
     imageUrl:
@@ -22,9 +22,9 @@ const projects: ProjectItem[] = [
     href: "/du-an/he-sinh-thai-du-lieu-hoc-thuat",
   },
   {
-    title: "Chuyển đổi số quản trị doanh nghiệp",
+    title: "Chuyển đổi số trong quản trị nhân sự doanh nghiệp nhỏ và vừa",
     description:
-      "Tư vấn và triển khai khung năng lực số cho doanh nghiệp vừa và lớn, tối ưu vận hành và ra quyết định.",
+      "Tư vấn và triển khai giải pháp số hóa trong quản lý nhân sự, tối ưu vận hành và nâng cao năng suất cho doanh nghiệp địa phương.",
     year: "2023",
     organization: "Đối tác doanh nghiệp chiến lược",
     imageUrl:
@@ -32,9 +32,9 @@ const projects: ProjectItem[] = [
     href: "/du-an/chuyen-doi-so-quan-tri",
   },
   {
-    title: "Phát triển lãnh đạo bền vững",
+    title: "Đào tạo kỹ năng lãnh đạo cộng đồng nông thôn",
     description:
-      "Thiết kế chương trình đào tạo lãnh đạo hướng đến phát triển bền vững và trách nhiệm xã hội.",
+      "Thiết kế chương trình đào tạo kỹ năng lãnh đạo, quản trị và khởi nghiệp nhằm thúc đẩy phát triển bền vững khu vực nông nghiệp – nông thôn.",
     year: "2022",
     organization: "Học viện Chính sách & Phát triển",
     imageUrl:
@@ -131,8 +131,11 @@ export default function ProjectsSection() {
                       className="rounded-md text-white hover:opacity-90"
                       style={{ backgroundColor: "#E7793F" }}
                       onClick={(e) => {
-                        // prevent parent <a> immediate navigation to allow button to be focusable
                         e.stopPropagation();
+                        window.open(
+                          "https://drive.google.com/drive/folders/1SbgB4datFvc53PacxIzPPJu-FT66HoAF",
+                          "_blank"
+                        );
                       }}
                     >
                       Xem chi tiết

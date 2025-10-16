@@ -3,26 +3,26 @@ import { Users, MapPin, Leaf, TrendingUp } from "lucide-react";
 const impressiveNumbers = [
   {
     icon: Users,
-    title: "500+",
-    subtitle: "Hộ gia đình tham gia",
-    description: "Được hỗ trợ phát triển sản phẩm nông nghiệp bền vững",
+    title: "24+",
+    subtitle: "Xã,Phường",
+    description: "Triển khai dự án đến các hộ gia đình",
   },
   {
     icon: MapPin,
-    title: "15",
-    subtitle: "Tỉnh/Thành phố",
+    title: "48+",
+    subtitle: "Báo cáo về thực trạng, nhận thức",
     description: "Triển khai dự án trên khắp cả nước",
   },
   {
     icon: Leaf,
-    title: "200+",
+    title: "50+",
     subtitle: "Loại sản phẩm",
     description: "Nông sản được phát triển và quảng bá",
   },
   {
     icon: TrendingUp,
-    title: "85%",
-    subtitle: "Tăng thu nhập",
+    title: "3840+",
+    subtitle: "Bản khảo sát được thực hiện",
     description: "Trung bình của các hộ gia đình tham gia",
   },
 ];

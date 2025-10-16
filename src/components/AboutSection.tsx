@@ -10,18 +10,39 @@ export default function AboutSection() {
       <div className="container mx-auto px-4">
         <div className="text-center max-w-3xl mx-auto">
           <div className="flex items-center justify-center mb-4">
-            <GraduationCap className="h-10 w-10" style={{ color: "#E7793F" }} aria-hidden="true" />
+            <GraduationCap
+              className="h-10 w-10"
+              style={{ color: "#E7793F" }}
+              aria-hidden="true"
+            />
           </div>
-          <h2 className="text-3xl md:text-4xl font-bold tracking-tight" style={{ color: "#00596C" }}>
+          <h2
+            className="text-3xl md:text-4xl font-bold tracking-tight"
+            style={{ color: "#00596C" }}
+          >
             GIỚI THIỆU
           </h2>
-          <div className="mx-auto mt-3 h-1 w-24 rounded-full" style={{ backgroundColor: "#E7793F" }} />
+          <div
+            className="mx-auto mt-3 h-1 w-24 rounded-full"
+            style={{ backgroundColor: "#E7793F" }}
+          />
 
           <p className="mt-6 mx-auto max-w-[900px] text-base md:text-lg leading-relaxed text-foreground/70">
-            Với tinh thần học thuật nghiêm túc và định hướng ứng dụng, chúng tôi xây dựng môi trường nghiên cứu và đào tạo
-            hiện đại, kết nối giảng viên, nhà nghiên cứu và doanh nghiệp. Trọng tâm của chúng tôi là quản trị hiện đại,
-            đổi mới sáng tạo và phát triển bền vững – tạo ra tri thức có giá trị thực tiễn, thúc đẩy năng lực cạnh tranh
-            và đóng góp tích cực cho cộng đồng.
+            Dự án{" "}
+            <span className="font-bold">
+              “Khảo sát nhận thức về phát triển sản phẩm nông nghiệp gắn với du
+              lịch cộng đồng”
+            </span>
+            do{" "}
+            <span className="font-bold">
+              Chi cục Phát triển Nông thôn – Sở Nông nghiệp và Môi trường TP. Hồ
+              Chí Minh
+            </span>{" "}
+            thực hiện.Mục tiêu nhằm đánh giá thực trạng, nhu cầu và tiềm năng
+            phát triển mô hình “Nông nghiệp,Du lịch”.Dự án góp phần nâng cao
+            nhận thức, kết nối cộng đồng và thúc đẩy phát triển bền vững nông
+            thôn. Kết quả khảo sát sẽ là cơ sở cho việc hoạch định chính sách và
+            hỗ trợ người dân hiệu quả hơn.
           </p>
         </div>
 
@@ -30,12 +51,13 @@ export default function AboutSection() {
             <AspectRatio ratio={16 / 9}>
               <iframe
                 className="w-full h-full"
-                src={`https://www.youtube.com/embed/${VIDEO_ID}`}
-                title="Video giới thiệu"
+                src="https://www.youtube.com/embed/uJfrx4neSuI?si=J7fy0yNvODsD60wd"
+                title="YouTube video player"
+                frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerPolicy="strict-origin-when-cross-origin"
-                allowFullScreen
-              />
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+              ></iframe>
             </AspectRatio>
           </Card>
         </div>

@@ -14,11 +14,22 @@ export default function AboutInstituteSection() {
               GIỚI THIỆU VỀ VIỆN
             </h2>
             <p className="text-foreground/70 text-base md:text-lg leading-relaxed mb-6 max-w-prose">
-              Viện hướng đến xây dựng hệ sinh thái học thuật hiện đại, kết nối
-              nghiên cứu, đào tạo và doanh nghiệp nhằm tạo ra tri thức có giá
-              trị thực tiễn, đóng góp cho cộng đồng và phát triển bền vững.
+              <span className="font-bold">
+                Viện Phát triển Nguồn nhân lực và Kinh doanh (HUREDIN)
+              </span>{" "}
+              – đơn vị trực thuộc Trường Đại học Kinh tế TP. Hồ Chí Minh (UEH) –
+              là trung tâm đào tạo, nghiên cứu và tư vấn hàng đầu trong lĩnh vực
+              phát triển nguồn nhân lực, quản trị và kinh doanh.
             </p>
-            <ul className="list-disc pl-5 space-y-2 text-foreground/80">
+            <p className="text-foreground/70 text-base md:text-lg leading-relaxed mb-6 max-w-prose">
+              HUREDIN hướng đến sứ mệnh{" "}
+              <span className="font-bold">
+                kết nối tri thức – nâng tầm năng lực – thúc đẩy phát triển bền
+                vững
+              </span>{" "}
+              cho cá nhân, doanh nghiệp và cộng đồng.
+            </p>
+            {/* <ul className="list-disc pl-5 space-y-2 text-foreground/80">
               <li>
                 Tập trung vào quản trị hiện đại, đổi mới sáng tạo và năng lực
                 lãnh đạo trong bối cảnh số.
@@ -31,7 +42,7 @@ export default function AboutInstituteSection() {
                 Chú tr��ng chuyển giao tri thức, ứng dụng thực tiễn và tác động
                 xã hội dài hạn.
               </li>
-            </ul>
+            </ul> */}
             <div className="mt-6">
               <Button
                 className="rounded-md text-white px-6 py-2 hover:opacity-90"
